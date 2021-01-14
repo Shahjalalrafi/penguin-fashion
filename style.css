@@ -34,7 +34,8 @@ nav a {
 /* women jacket */
 
 .women-jacket,
-.man-jacket {
+.man-jacket,
+.about {
     background-color: #f6f5f5;
 }
 .women-jacket .box,
@@ -46,7 +47,8 @@ nav a {
     background: #E5E5E5;
 }
 .women-jacket a,
-.man-jacket a {
+.man-jacket a,
+.button {
     background: linear-gradient( #A4BC46, #85A019);
 }
 .women-jacket h2,
@@ -63,6 +65,21 @@ nav a {
     padding: 50px;
 }
 
+/* about */
+.about .boxes {
+    text-align: center;
+    padding: 0px 30px;
+    margin-right: 20px;
+}
+
+/* contact us */
+.contact-us a {
+    background: linear-gradient( #A4BC46, #85A019);
+}
+
+#footers {
+    background: linear-gradient( #A4BC46, #85A019);
+}
 
 
 
@@ -99,5 +116,8 @@ nav a {
     .women-jacket .footer,
     .man-jacket .footer {
         display: flex!important;
+    }
+    .about > . {
+        flex-direction: column-reverse !important;
     }
 }
