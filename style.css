@@ -66,15 +66,12 @@ nav a {
 }
 
 /* about */
-.about .boxes {
-    text-align: center;
-    padding: 0px 30px;
-    margin-right: 20px;
-}
+
 
 /* contact us */
-.contact-us a {
-    background: linear-gradient( #A4BC46, #85A019);
+
+#contact-us .form-heading {
+    color:#A4BC46;
 }
 
 #footers {
@@ -117,7 +114,12 @@ nav a {
     .man-jacket .footer {
         display: flex!important;
     }
-    .about > . {
+    .about > .h {
         flex-direction: column-reverse !important;
+    }
+    .about .boxes {
+        text-align: center;
+        padding: 0px 30px;
+        margin-right: 20px;
     }
 }
